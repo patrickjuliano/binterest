@@ -34,9 +34,9 @@ function App() {
               <Container>
                 <Navbar.Brand className='ms-1 fs-4 fw-bold' href='/'>Binterest</Navbar.Brand>
                 <Nav className='me-auto fs-5'>
-                  <Nav.Link href='/'>Images</Nav.Link>
-                  <Nav.Link href='/my-bin'>My Bin</Nav.Link>
-                  <Nav.Link href='/my-posts'>My Posts</Nav.Link>
+                  <Nav.Link as={Link} to='/'>Images</Nav.Link>
+                  <Nav.Link as={Link} to='/my-bin'>My Bin</Nav.Link>
+                  <Nav.Link as={Link} to='/my-posts'>My Posts</Nav.Link>
                 </Nav>
               </Container>
             </Navbar>
